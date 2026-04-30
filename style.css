@@ -281,7 +281,7 @@ header{
 
 /* Background container */
 .bg-balls {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
@@ -292,7 +292,7 @@ header{
 
 /* Ball common style */
 .ball {
-    position: absolute;
+    position: fixed;
     border-radius: 50%;
     filter: blur(60px);
     opacity: 0.5;
@@ -334,4 +334,92 @@ header{
     0% { transform: translateY(0px); }
     50% { transform: translateY(-50px); }
     100% { transform: translateY(0px); }
+}
+
+/* sanju */
+
+.aboutSection{
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    /* border: 1px solid white; */
+    width: 100%;
+    height: 500px;
+
+}
+.aboutSection1{
+    /* border:1px solid rgb(179, 11, 11); */
+    border-radius: 50px;
+   justify-content: center;
+   
+    text-decoration: rgb(4, 82, 82);
+    font-size:50px;
+    
+}
+.aSc2{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column: 1/5;
+    gap: 30px;
+}
+.text1{
+    margin-top: 100px;
+    margin-left: 50px;
+}
+.text2{
+    margin-top: 100px;
+    margin-left: 50px;
+    color: var(--text-secondary: #a0a0b0;);
+}
+.el1{
+    grid-column: 1/5;
+}
+.ee2{
+    border: 1px solid rgb(143, 207, 159);
+    border-radius: 20px;
+    margin-left: 40px;
+    background-color:#6a6a7a;
+    text-align: center;
+    transition: all;
+    
+}
+.ee2:hover{
+    border: 2px solid rgb(17, 170, 17);
+    background-color: #04048b;
+}
+.skillTech1{
+    text-align: center;
+}
+.skillTech2{
+    width: 100%;
+    height: 500px;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:40px;
+    padding: 40px;
+    
+
+}
+.skill1{
+
+        height: 450px;
+        border: 1px solid rgb(42, 173, 42);
+        border-radius: 50px;
+        background-color: rgb(59, 59, 59);
+}
+.skillTech3{
+    display:grid;
+    grid-template-columns: repeat(11,1fr);
+   justify-content: center;
+   gap:10px;
+   padding: 40px;
+   
+    
+}
+.skill2{
+    border: 1px solid rgb(98, 124, 46);
+    border-radius: 10px;
+    text-align: center;
+    
 }
